@@ -3,11 +3,11 @@ from frappe import __version__ as frappe_version
 
 app_name = "chat"
 app_title = "OneHash Chat"
-app_publisher = "Frappe Technologies"
-app_description = "Chat application for frappe"
+app_publisher = "Abhishek Chougule"
+app_description = "Chat application for OneHash"
 app_icon = "octicon octicon-file-directory"
 app_color = "grey"
-app_email = "developers@frappe.io"
+app_email = "abhishek.c@onehash.ai"
 app_license = "MIT"
 guest_title = app_title
 is_frappe_above_v13 = int(frappe_version.split('.')[0]) > 13
